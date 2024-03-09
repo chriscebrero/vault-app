@@ -21,7 +21,62 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  background-color: white;
+  padding: 20px 30px 80px 30px;
+  width: 500px;
+}
+
+.name-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 4px 0;
+}
+
+.form-input {
+  padding: 10px 0 10px 6px;
+  border: solid 1px #d3d3d3;
+  border-radius: 8px;
+}
+
+.form-label {
+  display: flex;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.validate-message {
+  display: flex;
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: red;
+}
+
+button.submit-button {
+  padding: 10px 0;
+  border: solid 1px #d3d3d3;
+  border-radius: 8px;
+  background-color: black;
   color: white;
+}
+
+button.submit-button:hover {
+  opacity: 0.5;
+  cursor:pointer;
 }
 
 .App-link {
